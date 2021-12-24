@@ -19,7 +19,7 @@ export const ProductImage = ({ img = '' }) => {
     <img
       className={styles.productImg}
       src={img ? img : noImage}
-      alt="Product image"
+      alt="img"
     />
   );
 };
